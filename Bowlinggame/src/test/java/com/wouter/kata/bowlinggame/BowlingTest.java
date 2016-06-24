@@ -36,6 +36,7 @@ public class BowlingTest
         int rolls = 20;
         int pins = 1;
         rollMany(rolls, pins);
+        Assert.assertEquals(20, game.getScore());
     }
 
     @Test
@@ -52,11 +53,16 @@ public class BowlingTest
     public void rollSpare(){
         game.roll(4);
         game.roll(6);
-        game.roll(5);
         game.roll(1);
         rollMany(16, 0);
 
-        Assert.assertEquals(21, 0);
+        Assert.assertEquals(12, game.getScore());
+    }
+
+    @Test
+    public void perfectTest(){
+        rollMany(12,10);
+        Assert.assertEquals(300,game.getScore());
     }
 
     private void rollMany(int rolls, int pins) {

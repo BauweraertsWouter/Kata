@@ -19,7 +19,13 @@ public class KarateChop
             }else {
                 return -1;
             }
+        }else{
+            int lengtgh = (list.length/2);
+            int[] newList = new int[lengtgh];
+            for (int i = 0; i < lengtgh; i++) {
+                newList[i] = list[i];
+            }
+            return this.search(element, newList);
         }
-        return 0;
     }
 }

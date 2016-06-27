@@ -35,4 +35,24 @@ public class KarateChopTest {
     public void searchSingleElementAbsent(){
         assertEquals(-1, chop.search(1, new int[]{3}));
     }
+
+    @Test
+    public void searchMultiElementPresentUneven(){
+        assertEquals(0,chop.search(1, new int[] {1,3,5}));
+    }
+
+    @Test
+    public void searchMultiElementAbsentUneven(){
+        assertEquals(-1, chop.search(2, new int[] {1,3,5}));
+    }
+
+    @Test
+    public void searchMultiElementPresentEven(){
+        assertEquals(0,chop.search(1, new int[] {1,3,5,6}));
+    }
+
+    @Test
+    public void searchMultiElementAbsentEven(){
+        assertEquals(-1, chop.search(2, new int[] {1,3}));
+    }
 }

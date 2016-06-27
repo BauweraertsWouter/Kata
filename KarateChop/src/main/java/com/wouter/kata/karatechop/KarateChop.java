@@ -22,8 +22,16 @@ public class KarateChop
         }else{
             int lengtgh = (list.length/2);
             int[] newList = new int[lengtgh];
-            for (int i = 0; i < lengtgh; i++) {
-                newList[i] = list[i];
+            if (element == list[lengtgh]){return 0;}
+            else if (element < list[lengtgh]){
+                for (int i = 0; i < lengtgh; i++) {
+                    newList[i] = list[i];
+                }
+            }else {
+                int j = 0;
+                for (int i = lengtgh; i < list.length; i++) {
+                    newList[j++] = list[i];
+                }
             }
             return this.search(element, newList);
         }

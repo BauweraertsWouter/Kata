@@ -38,7 +38,7 @@ public class KarateChopTest {
 
     @Test
     public void searchMultiElementPresentUneven(){
-        assertEquals(0,chop.search(1, new int[] {1,3,5}));
+        assertEquals(1,chop.search(3, new int[] {1,3,5}));
     }
 
     @Test
@@ -48,7 +48,7 @@ public class KarateChopTest {
 
     @Test
     public void searchMultiElementPresentEven(){
-        assertEquals(0,chop.search(5, new int[] {1,3,5,6}));
+        assertEquals(2,chop.search(5, new int[] {1,3,5,6}));
     }
 
     @Test

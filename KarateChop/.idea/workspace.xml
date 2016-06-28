@@ -37,9 +37,12 @@
       <file leaf-file-name="KarateChop.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wouter/kata/karatechop/KarateChop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
-              <folding />
+            <state relative-caret-position="308">
+              <caret line="34" column="61" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
+              <folding>
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,8 +50,8 @@
       <file leaf-file-name="KarateChopTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/wouter/kata/karatechop/KarateChopTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1100">
-              <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+            <state relative-caret-position="434">
+              <caret line="50" column="22" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#376#377#0" expanded="true" />
@@ -227,32 +230,6 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
   </component>
   <component name="RunManager" selected="JUnit.KarateChopTest">
-    <configuration default="false" name="KarateChopTest.searchMultiElementAbsentUneven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.wouter.kata.karatechop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="KarateChop" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.wouter.kata.karatechop" />
-      <option name="MAIN_CLASS_NAME" value="com.wouter.kata.karatechop.KarateChopTest" />
-      <option name="METHOD_NAME" value="searchMultiElementAbsentUneven" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="KarateChopTest.searchMultiElementPresentEven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -349,6 +326,32 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="KarateChop" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="KarateChopTest.searchMultiElementPresentUneven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.wouter.kata.karatechop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="KarateChop" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.wouter.kata.karatechop" />
+      <option name="MAIN_CLASS_NAME" value="com.wouter.kata.karatechop.KarateChopTest" />
+      <option name="METHOD_NAME" value="searchMultiElementPresentUneven" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -746,19 +749,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.KarateChopTest.searchMultiElementAbsentUneven" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.KarateChopTest.searchMultiElementPresentEven" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.KarateChopTest.searchMultiElementAbsentEven" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.KarateChopTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.KarateChop" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.KarateChopTest.searchMultiElementPresentEven" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.KarateChopTest.searchMultiElementAbsentEven" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.KarateChopTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.KarateChop" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.KarateChopTest.searchMultiElementPresentUneven" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.KarateChopTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.KarateChop" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.KarateChopTest.searchMultiElementPresentUneven" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.KarateChopTest.searchMultiElementPresentEven" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.KarateChopTest.searchMultiElementAbsentEven" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.KarateChopTest.searchMultiElementAbsentUneven" />
+        <item index="3" class="java.lang.String" itemvalue="Application.KarateChop" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.KarateChopTest.searchMultiElementAbsentEven" />
       </list>
     </recent_temporary>
   </component>
@@ -775,44 +778,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1466791713387</updated>
-      <workItem from="1466791715892" duration="3588000" />
+      <workItem from="1466791715892" duration="5681000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="KarateChopTest - 2016.06.28 at 01h 32m 31s.xml">
+    <history-entry file="KarateChopTest - 2016.06.28 at 02h 20m 49s.xml">
       <configuration name="KarateChopTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KarateChopTest - 2016.06.28 at 01h 39m 28s.xml">
+    <history-entry file="KarateChopTest - 2016.06.28 at 02h 21m 48s.xml">
       <configuration name="KarateChopTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KarateChopTest_searchMultiElementAbsentEven - 2016.06.28 at 01h 32m 07s.xml">
-      <configuration name="KarateChopTest.searchMultiElementAbsentEven" configurationId="JUnit" />
+    <history-entry file="KarateChopTest - 2016.06.28 at 02h 23m 10s.xml">
+      <configuration name="KarateChopTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KarateChopTest_searchMultiElementAbsentEven - 2016.06.28 at 01h 32m 16s.xml">
-      <configuration name="KarateChopTest.searchMultiElementAbsentEven" configurationId="JUnit" />
+    <history-entry file="KarateChopTest - 2016.06.28 at 02h 23m 38s.xml">
+      <configuration name="KarateChopTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KarateChopTest_searchMultiElementAbsentUneven - 2016.06.28 at 01h 31m 22s.xml">
-      <configuration name="KarateChopTest.searchMultiElementAbsentUneven" configurationId="JUnit" />
+    <history-entry file="KarateChopTest - 2016.06.28 at 02h 24m 53s.xml">
+      <configuration name="KarateChopTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KarateChopTest_searchMultiElementPresent - 2016.06.28 at 01h 25m 47s.xml">
-      <configuration name="KarateChopTest.searchMultiElementPresent" configurationId="JUnit" />
+    <history-entry file="KarateChopTest - 2016.06.28 at 02h 29m 14s.xml">
+      <configuration name="KarateChopTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KarateChopTest_searchMultiElementPresent - 2016.06.28 at 01h 26m 11s.xml">
-      <configuration name="KarateChopTest.searchMultiElementPresent" configurationId="JUnit" />
+    <history-entry file="KarateChopTest - 2016.06.28 at 02h 32m 54s.xml">
+      <configuration name="KarateChopTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KarateChopTest_searchMultiElementPresent - 2016.06.28 at 01h 30m 27s.xml">
-      <configuration name="KarateChopTest.searchMultiElementPresent" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KarateChopTest_searchMultiElementPresentEven - 2016.06.28 at 01h 32m 03s.xml">
+    <history-entry file="KarateChopTest_searchMultiElementPresentEven - 2016.06.28 at 02h 31m 27s.xml">
       <configuration name="KarateChopTest.searchMultiElementPresentEven" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KarateChopTest_searchMultiElementPresentEven - 2016.06.28 at 01h 36m 03s.xml">
+    <history-entry file="KarateChopTest_searchMultiElementPresentEven - 2016.06.28 at 02h 31m 33s.xml">
       <configuration name="KarateChopTest.searchMultiElementPresentEven" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KarateChopTest_searchMultiElementPresentUneven - 2016.06.28 at 02h 32m 31s.xml">
+      <configuration name="KarateChopTest.searchMultiElementPresentUneven" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3588000" />
+    <option name="totallyTimeSpent" value="5681000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="2418" height="1318" extended-state="6" />
@@ -823,10 +826,10 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958478" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958478" sideWeight="0.5017065" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32958478" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32958478" sideWeight="0.49829352" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -858,9 +861,93 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wouter/kata/karatechop/KarateChop.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wouter/kata/karatechop/KarateChop.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wouter/kata/karatechop/KarateChop.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wouter/kata/karatechop/KarateChop.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wouter/kata/karatechop/KarateChop.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wouter/kata/karatechop/KarateChop.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wouter/kata/karatechop/KarateChop.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wouter/kata/karatechop/KarateChop.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wouter/kata/karatechop/KarateChop.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wouter/kata/karatechop/KarateChop.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wouter/kata/karatechop/KarateChop.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wouter/kata/karatechop/KarateChop.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wouter/kata/karatechop/KarateChop.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="19" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="length" language="JAVA" custom="" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -888,16 +975,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wouter/kata/karatechop/KarateChop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
-          <folding />
+        <state relative-caret-position="308">
+          <caret line="34" column="61" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
+          <folding>
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wouter/kata/karatechop/KarateChopTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+        <state relative-caret-position="434">
+          <caret line="50" column="22" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#376#377#0" expanded="true" />

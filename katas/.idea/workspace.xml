@@ -34,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameOfLife.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GameOfLife.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wouter/kata/gameOfLife/GameOfLife.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1122">
@@ -43,6 +43,26 @@
                 <element signature="e#197#198#0" expanded="true" />
                 <element signature="e#221#222#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MineSweeper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wouter/kata/minesweeper/MineSweeper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MineSweeperTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/wouter/kata/minesweeper/MineSweeperTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,6 +111,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/wouter/kata/stringCalc/StringCalcTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/wouter/kata/gameOfLife/GameOfLifeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wouter/kata/gameOfLife/GameOfLife.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wouter/kata/minesweeper/MineSweeperTest.java" />
       </list>
     </option>
   </component>
@@ -332,6 +353,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="minesweeper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="katas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="katas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="gameOfLife" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -355,6 +406,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.wouter.kata.minesweeper" />
       <recent name="com.wouter.kata.gameOfLife" />
       <recent name="com.wouter.kata.stringCalc" />
     </key>
@@ -918,7 +970,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1467079161362</updated>
-      <workItem from="1467079164908" duration="12948000" />
+      <workItem from="1467079164908" duration="13299000" />
     </task>
     <servers />
   </component>
@@ -955,7 +1007,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12948000" />
+    <option name="totallyTimeSpent" value="13299000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="2418" height="1318" extended-state="7" />
@@ -1105,6 +1157,22 @@
             <element signature="e#197#198#0" expanded="true" />
             <element signature="e#221#222#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wouter/kata/minesweeper/MineSweeper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wouter/kata/minesweeper/MineSweeperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -2,6 +2,7 @@ package com.wouter.kata.gameOfLife;
 
 /**
  * Created by Wouter on 29/06/2016.
+ * Java implementation for the Game of Life by Conway
  */
 public class GameOfLife {
     public int getCellStatus(int i) {

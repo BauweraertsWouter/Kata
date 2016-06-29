@@ -7,7 +7,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * Created by Wouter on 29/06/2016.
+ * Unit test suite for GameOfLife class (based on the game of life kata by Conway)
  */
 public class GameOfLifeTest {
     GameOfLife gol;
